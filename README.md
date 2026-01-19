@@ -1,4 +1,4 @@
-# Rainfall Prediction Using Machine Learning 🌧️  
+# 🌧️ Rainfall Prediction Using Machine Learning  
 ### Python | Machine Learning | Data Analysis
 
 This project focuses on **predicting rainfall using machine learning techniques** based on historical weather data.  
@@ -25,6 +25,7 @@ The goal is to **analyze weather conditions and accurately predict rainfall occu
 
 - Understand and analyze historical weather data  
 - Apply data preprocessing techniques  
+- Perform Exploratory Data Analysis (EDA)  
 - Train machine learning models for rainfall prediction  
 - Evaluate model performance  
 - Visualize insights and prediction results  
@@ -59,36 +60,29 @@ The goal is to **analyze weather conditions and accurately predict rainfall occu
 ## 📊 Output & Visualizations
 
 ### 🔹 Dataset Overview & Weather Patterns
+This visualization shows the distribution and patterns of key weather features used in the dataset.
 
-::contentReference[oaicite:0]{index=0}
-
+![Dataset Overview](output1.png)
 
 ---
 
 ### 🔹 Feature Correlation Analysis
+Correlation heatmap showing relationships between different weather parameters.
 
-::contentReference[oaicite:1]{index=1}
-
-
----
-
-### 🔹 Model Training & Performance
-
-::contentReference[oaicite:2]{index=2}
-
+![Feature Correlation](output2.png)
 
 ---
 
 ### 🔹 Rainfall Prediction Results
+Final model prediction output illustrating rainfall classification or probability.
 
-::contentReference[oaicite:3]{index=3}
-
+![Prediction Result](output3.png)
 
 ---
 
 ## 📈 Model Evaluation
 
-The trained model is evaluated using:
+The trained machine learning model is evaluated using the following metrics:
 
 - Accuracy Score  
 - Confusion Matrix  
@@ -96,7 +90,7 @@ The trained model is evaluated using:
 - Recall  
 - F1-Score  
 
-These metrics help assess how well the model predicts rainfall events.
+These metrics help assess how well the model predicts rainfall events and handles class imbalance.
 
 ---
 
